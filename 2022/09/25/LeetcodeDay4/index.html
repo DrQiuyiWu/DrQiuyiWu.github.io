@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Leetcode Practice Day 4 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="24. Swap Nodes in Pairs12345678910111213class Solution:	def swapPairs(self, head: Optional[ListNode]) -&gt; Optional[ListNode]:		dummy &#x3D; cur &#x3D; ListNode(next &#x3D; head) # dummy head		while cur.next and cu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Leetcode Practice Day 4">
+<meta property="og:url" content="http://example.com/2022/09/25/LeetcodeDay4/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="24. Swap Nodes in Pairs12345678910111213class Solution:	def swapPairs(self, head: Optional[ListNode]) -&gt; Optional[ListNode]:		dummy &#x3D; cur &#x3D; ListNode(next &#x3D; head) # dummy head		while cur.next and cu">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-09-25T17:14:07.175Z">
+<meta property="article:modified_time" content="2022-09-25T19:22:26.555Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-LeetcodeDay4" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/09/25/LeetcodeDay4/" class="article-date">
+  <time class="dt-published" datetime="2022-09-25T17:14:07.175Z" itemprop="datePublished">2022-09-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Leetcode Practice Day 4
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="24-Swap-Nodes-in-Pairs"><a href="#24-Swap-Nodes-in-Pairs" class="headerlink" title="24. Swap Nodes in Pairs"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/swap-nodes-in-pairs/">24. Swap Nodes in Pairs</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">swapPairs</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode]</span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		dummy = cur = ListNode(<span class="built_in">next</span> = head) <span class="comment"># dummy head</span></span><br><span class="line">		<span class="keyword">while</span> cur.<span class="built_in">next</span> <span class="keyword">and</span> cur.<span class="built_in">next</span>.<span class="built_in">next</span> != <span class="literal">None</span>:</span><br><span class="line">			temp = cur.<span class="built_in">next</span> <span class="comment"># save node 1</span></span><br><span class="line">			temp1 = cur.<span class="built_in">next</span>.<span class="built_in">next</span>.<span class="built_in">next</span> <span class="comment"># save node 3</span></span><br><span class="line"></span><br><span class="line">			cur.<span class="built_in">next</span> = cur.<span class="built_in">next</span>.<span class="built_in">next</span> <span class="comment"># dummy point to node 2</span></span><br><span class="line">			cur.<span class="built_in">next</span>.<span class="built_in">next</span> = temp <span class="comment"># node 2 point to node 1</span></span><br><span class="line">			temp.<span class="built_in">next</span> = temp1 <span class="comment"># node1 point to node 3</span></span><br><span class="line"></span><br><span class="line">			cur = cur.<span class="built_in">next</span>.<span class="built_in">next</span> <span class="comment"># move node to the next set</span></span><br><span class="line">		<span class="keyword">return</span> dummy.<span class="built_in">next</span> </span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>从dummy节点开始</li>
+<li>改方向前先存储第一、第三节点</li>
+<li>两两挪动</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1YT411g7br/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0024.%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html">文章</a></p>
+<h4 id="19-Remove-Nth-Node-From-End-of-List-x3D"><a href="#19-Remove-Nth-Node-From-End-of-List-x3D" class="headerlink" title="19. Remove Nth Node From End of List&#x3D;"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list/">19. Remove Nth Node From End of List</a>&#x3D;</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">removeNthFromEnd</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode], n: <span class="built_in">int</span></span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		dummyhead = ListNode(<span class="built_in">next</span> = head)</span><br><span class="line">		fast = slow = dummyhead</span><br><span class="line">		<span class="keyword">while</span> n != <span class="number">0</span>:</span><br><span class="line">			fast = fast.<span class="built_in">next</span></span><br><span class="line">			n -= <span class="number">1</span></span><br><span class="line">		<span class="keyword">while</span> fast.<span class="built_in">next</span> != <span class="literal">None</span>:</span><br><span class="line">			fast = fast.<span class="built_in">next</span></span><br><span class="line">			slow = slow.<span class="built_in">next</span></span><br><span class="line">		slow.<span class="built_in">next</span> = slow.<span class="built_in">next</span>.<span class="built_in">next</span></span><br><span class="line">		<span class="keyword">return</span> dummyhead.<span class="built_in">next</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>注意边界条件 <code>fast.next != None</code></li>
+<li>设置两个指针</li>
+<li>设置虚拟头节点</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1vW4y1U7Gf/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0019.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
+<h4 id="面试题-02-07-Intersection-of-Two-Linked-Lists-LCCI"><a href="#面试题-02-07-Intersection-of-Two-Linked-Lists-LCCI" class="headerlink" title="面试题 02.07. Intersection of Two Linked Lists LCCI"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/">面试题 02.07. Intersection of Two Linked Lists LCCI</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">getIntersectionNode</span>(<span class="params">self, headA: ListNode, headB: ListNode</span>) -&gt; ListNode:</span><br><span class="line">		curA, curB = headA, headB</span><br><span class="line">		<span class="keyword">if</span> curA <span class="keyword">is</span> <span class="literal">None</span> <span class="keyword">or</span> curB <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line">		<span class="keyword">while</span> curA != curB:</span><br><span class="line">			curA = curA.<span class="built_in">next</span> <span class="keyword">if</span> curA != <span class="literal">None</span> <span class="keyword">else</span> headB</span><br><span class="line">			curB = curB.<span class="built_in">next</span> <span class="keyword">if</span> curB != <span class="literal">None</span> <span class="keyword">else</span> headA</span><br><span class="line">		<span class="keyword">return</span> curA</span><br></pre></td></tr></table></figure>
+<ul>
+<li>设置双指针，两者最终会相遇</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://programmercarl.com/%E9%9D%A2%E8%AF%95%E9%A2%9802.07.%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
+<h4 id="142-Linked-List-Cycle-II"><a href="#142-Linked-List-Cycle-II" class="headerlink" title="142. Linked List Cycle II"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/linked-list-cycle-ii/">142. Linked List Cycle II</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line"></span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">detectCycle</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode]</span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		slow = fast = head</span><br><span class="line">		<span class="keyword">while</span> fast <span class="keyword">and</span> fast.<span class="built_in">next</span> <span class="keyword">and</span> fast.<span class="built_in">next</span>.<span class="built_in">next</span>: <span class="comment">#如果能有环</span></span><br><span class="line">			slow = slow.<span class="built_in">next</span></span><br><span class="line">			fast = fast.<span class="built_in">next</span>.<span class="built_in">next</span></span><br><span class="line">			<span class="keyword">if</span> fast == slow:</span><br><span class="line">				p = slow</span><br><span class="line">				q = head</span><br><span class="line">				<span class="keyword">while</span> p != q: </span><br><span class="line">					p = p.<span class="built_in">next</span></span><br><span class="line">					q = q.<span class="built_in">next</span></span><br><span class="line">				<span class="keyword">return</span> p</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">None</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>关键点：从相遇点和出发点同时出发找到环入口<br>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1if4y1d7ob/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0142.%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html#_142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8ii">文章</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay4/" data-id="cl8hq9qqd0003iusbcxnm8xmx" data-title="Leetcode Practice Day 4" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2022/09/25/LeetcodeDay3/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Leetcode Practice Day 3
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/09/25/LeetcodeDay1/">Leetcode Practice Day 1</a>
+          </li>
+        
+          <li>
+            <a href="/2022/09/25/LeetcodeDay2/">Leetcode Practice Day 2</a>
+          </li>
+        
+          <li>
+            <a href="/2022/09/25/LeetcodeDay3/">Leetcode Practice Day 3</a>
+          </li>
+        
+          <li>
+            <a href="/2022/09/25/LeetcodeDay4/">Leetcode Practice Day 4</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
