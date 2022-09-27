@@ -114,7 +114,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/25/LeetcodeDay1/" data-id="cl8jklxnt0000j9sbdzz42zxa" data-title="Leetcode Practice Day 1" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay1/" data-id="cl8kevfrm0000y7sb1so7cd3z" data-title="Leetcode Practice Day 1" class="article-share-link">Share</a>
       
       
       
@@ -180,69 +180,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/25/LeetcodeDay2/" data-id="cl8jklxny0001j9sbchuc4tgk" data-title="Leetcode Practice Day 2" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-LeetcodeDay4" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/09/25/LeetcodeDay4/" class="article-date">
-  <time class="dt-published" datetime="2022-09-25T17:14:07.175Z" itemprop="datePublished">2022-09-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/25/LeetcodeDay4/">Leetcode Practice Day 4</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h4 id="24-Swap-Nodes-in-Pairs"><a href="#24-Swap-Nodes-in-Pairs" class="headerlink" title="24. Swap Nodes in Pairs"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/swap-nodes-in-pairs/">24. Swap Nodes in Pairs</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">swapPairs</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode]</span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		dummy = cur = ListNode(<span class="built_in">next</span> = head) <span class="comment"># dummy head</span></span><br><span class="line">		<span class="keyword">while</span> cur.<span class="built_in">next</span> <span class="keyword">and</span> cur.<span class="built_in">next</span>.<span class="built_in">next</span> != <span class="literal">None</span>:</span><br><span class="line">			temp = cur.<span class="built_in">next</span> <span class="comment"># save node 1</span></span><br><span class="line">			temp1 = cur.<span class="built_in">next</span>.<span class="built_in">next</span>.<span class="built_in">next</span> <span class="comment"># save node 3</span></span><br><span class="line"></span><br><span class="line">			cur.<span class="built_in">next</span> = cur.<span class="built_in">next</span>.<span class="built_in">next</span> <span class="comment"># dummy point to node 2</span></span><br><span class="line">			cur.<span class="built_in">next</span>.<span class="built_in">next</span> = temp <span class="comment"># node 2 point to node 1</span></span><br><span class="line">			temp.<span class="built_in">next</span> = temp1 <span class="comment"># node1 point to node 3</span></span><br><span class="line"></span><br><span class="line">			cur = cur.<span class="built_in">next</span>.<span class="built_in">next</span> <span class="comment"># move node to the next set</span></span><br><span class="line">		<span class="keyword">return</span> dummy.<span class="built_in">next</span> </span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>从dummy节点开始</li>
-<li>改方向前先存储第一、第三节点</li>
-<li>两两挪动</li>
-</ul>
-<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1YT411g7br/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0024.%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html">文章</a></p>
-<h4 id="19-Remove-Nth-Node-From-End-of-List-x3D"><a href="#19-Remove-Nth-Node-From-End-of-List-x3D" class="headerlink" title="19. Remove Nth Node From End of List&#x3D;"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list/">19. Remove Nth Node From End of List</a>&#x3D;</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">removeNthFromEnd</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode], n: <span class="built_in">int</span></span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		dummyhead = ListNode(<span class="built_in">next</span> = head)</span><br><span class="line">		fast = slow = dummyhead</span><br><span class="line">		<span class="keyword">while</span> n != <span class="number">0</span>:</span><br><span class="line">			fast = fast.<span class="built_in">next</span></span><br><span class="line">			n -= <span class="number">1</span></span><br><span class="line">		<span class="keyword">while</span> fast.<span class="built_in">next</span> != <span class="literal">None</span>:</span><br><span class="line">			fast = fast.<span class="built_in">next</span></span><br><span class="line">			slow = slow.<span class="built_in">next</span></span><br><span class="line">		slow.<span class="built_in">next</span> = slow.<span class="built_in">next</span>.<span class="built_in">next</span></span><br><span class="line">		<span class="keyword">return</span> dummyhead.<span class="built_in">next</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>注意边界条件 <code>fast.next != None</code></li>
-<li>设置两个指针</li>
-<li>设置虚拟头节点</li>
-</ul>
-<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1vW4y1U7Gf/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0019.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
-<h4 id="面试题-02-07-Intersection-of-Two-Linked-Lists-LCCI"><a href="#面试题-02-07-Intersection-of-Two-Linked-Lists-LCCI" class="headerlink" title="面试题 02.07. Intersection of Two Linked Lists LCCI"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/">面试题 02.07. Intersection of Two Linked Lists LCCI</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">getIntersectionNode</span>(<span class="params">self, headA: ListNode, headB: ListNode</span>) -&gt; ListNode:</span><br><span class="line">		curA, curB = headA, headB</span><br><span class="line">		<span class="keyword">if</span> curA <span class="keyword">is</span> <span class="literal">None</span> <span class="keyword">or</span> curB <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line">		<span class="keyword">while</span> curA != curB:</span><br><span class="line">			curA = curA.<span class="built_in">next</span> <span class="keyword">if</span> curA != <span class="literal">None</span> <span class="keyword">else</span> headB</span><br><span class="line">			curB = curB.<span class="built_in">next</span> <span class="keyword">if</span> curB != <span class="literal">None</span> <span class="keyword">else</span> headA</span><br><span class="line">		<span class="keyword">return</span> curA</span><br></pre></td></tr></table></figure>
-<ul>
-<li>设置双指针，两者最终会相遇</li>
-</ul>
-<p>相关<a target="_blank" rel="noopener" href="https://programmercarl.com/%E9%9D%A2%E8%AF%95%E9%A2%9802.07.%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
-<h4 id="142-Linked-List-Cycle-II"><a href="#142-Linked-List-Cycle-II" class="headerlink" title="142. Linked List Cycle II"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/linked-list-cycle-ii/">142. Linked List Cycle II</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line"></span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">detectCycle</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode]</span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		slow = fast = head</span><br><span class="line">		<span class="keyword">while</span> fast <span class="keyword">and</span> fast.<span class="built_in">next</span> <span class="keyword">and</span> fast.<span class="built_in">next</span>.<span class="built_in">next</span>: <span class="comment">#如果能有环</span></span><br><span class="line">			slow = slow.<span class="built_in">next</span></span><br><span class="line">			fast = fast.<span class="built_in">next</span>.<span class="built_in">next</span></span><br><span class="line">			<span class="keyword">if</span> fast == slow:</span><br><span class="line">				p = slow</span><br><span class="line">				q = head</span><br><span class="line">				<span class="keyword">while</span> p != q: </span><br><span class="line">					p = p.<span class="built_in">next</span></span><br><span class="line">					q = q.<span class="built_in">next</span></span><br><span class="line">				<span class="keyword">return</span> p</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">None</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>关键点：从相遇点和出发点同时出发找到环入口<br>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1if4y1d7ob/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0142.%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html#_142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8ii">文章</a></li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/25/LeetcodeDay4/" data-id="cl8jklxnz0002j9sb359idmon" data-title="Leetcode Practice Day 4" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay2/" data-id="cl8kevfrq0001y7sb9dncf2p9" data-title="Leetcode Practice Day 2" class="article-share-link">Share</a>
       
       
       
@@ -299,7 +237,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/25/LeetcodeDay3/" data-id="cl8jklxo00003j9sbcqcu1hcc" data-title="Leetcode Practice Day 3" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay3/" data-id="cl8kevfrr0002y7sbgfck99tq" data-title="Leetcode Practice Day 3" class="article-share-link">Share</a>
       
       
       
@@ -364,7 +302,142 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/25/LeetcodeDay6/" data-id="cl8jklxo20004j9sb3ac0cr9f" data-title="Leetcode Practice Day 6" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay6/" data-id="cl8kevfrr0003y7sbh3o83g2t" data-title="Leetcode Practice Day 6" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-LeetcodeDay7" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/09/25/LeetcodeDay7/" class="article-date">
+  <time class="dt-published" datetime="2022-09-25T17:14:07.175Z" itemprop="datePublished">2022-09-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/09/25/LeetcodeDay7/">Leetcode Practice Day 7</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="454-4Sum-II"><a href="#454-4Sum-II" class="headerlink" title="454. 4Sum II"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/4sum-ii/">454. 4Sum II</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">fourSumCount</span>(<span class="params">self, nums1: <span class="type">List</span>[<span class="built_in">int</span>], nums2: <span class="type">List</span>[<span class="built_in">int</span>], nums3: <span class="type">List</span>[<span class="built_in">int</span>], nums4: <span class="type">List</span>[<span class="built_in">int</span>]</span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">        record = <span class="built_in">dict</span>()</span><br><span class="line">        count = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> nums1:</span><br><span class="line">            <span class="keyword">for</span> j <span class="keyword">in</span> nums2:</span><br><span class="line">                <span class="keyword">if</span> i + j <span class="keyword">in</span> record:</span><br><span class="line">                    record[i+j] += <span class="number">1</span></span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    record[i+j] = <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> nums3:</span><br><span class="line">            <span class="keyword">for</span> j <span class="keyword">in</span> nums4:</span><br><span class="line">                <span class="keyword">if</span> -i - j <span class="keyword">in</span> record:</span><br><span class="line">                    count += record[-i-j]</span><br><span class="line">        <span class="keyword">return</span> count</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>依旧是哈希表思路</li>
+<li>两两相加</li>
+<li>最后<code>count += record[-i-j]</code>而不是<code>count += 1</code></li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Md4y1Q7Yh/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0454.%E5%9B%9B%E6%95%B0%E7%9B%B8%E5%8A%A0II.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
+<h4 id="383-Ransom-Note"><a href="#383-Ransom-Note" class="headerlink" title="383. Ransom Note"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/ransom-note/">383. Ransom Note</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Method 1</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">canConstruct</span>(<span class="params">self, ransomNote: <span class="built_in">str</span>, magazine: <span class="built_in">str</span></span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        record = <span class="built_in">dict</span>()</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> ransomNote:</span><br><span class="line">            <span class="keyword">if</span> i <span class="keyword">not</span> <span class="keyword">in</span> record:</span><br><span class="line">                record[i] = <span class="number">1</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                record[i] +=<span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> magazine:</span><br><span class="line">            <span class="keyword">if</span> i <span class="keyword">in</span> record:</span><br><span class="line">                record[i] -= <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> record:</span><br><span class="line">            <span class="keyword">if</span> record[i] &gt; <span class="number">0</span>:</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>: <span class="keyword">return</span> <span class="literal">True</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Method 2</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">canConstruct</span>(<span class="params">self, ransomNote: <span class="built_in">str</span>, magazine: <span class="built_in">str</span></span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        record = [<span class="number">0</span>]*<span class="number">26</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> magazine:</span><br><span class="line">            record[<span class="built_in">ord</span>(i)-<span class="built_in">ord</span>(<span class="string">&quot;a&quot;</span>)] += <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> ransomNote:</span><br><span class="line">            <span class="keyword">if</span> record[<span class="built_in">ord</span>(i)-<span class="built_in">ord</span>(<span class="string">&quot;a&quot;</span>)] == <span class="number">0</span>:</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line">            <span class="keyword">else</span>: </span><br><span class="line">                record[<span class="built_in">ord</span>(i)-<span class="built_in">ord</span>(<span class="string">&quot;a&quot;</span>)] -= <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> <span class="literal">True</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>和前几题思路相同</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://programmercarl.com/0383.%E8%B5%8E%E9%87%91%E4%BF%A1.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
+<h4 id="15-3Sum"><a href="#15-3Sum" class="headerlink" title="15. 3Sum"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/3sum/">15. 3Sum</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">threeSum</span>(<span class="params">self, nums: <span class="type">List</span>[<span class="built_in">int</span>]</span>) -&gt; <span class="type">List</span>[<span class="type">List</span>[<span class="built_in">int</span>]]:</span><br><span class="line">        nums = <span class="built_in">sorted</span>(nums)</span><br><span class="line">        res = []</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(nums)&lt;<span class="number">3</span>: <span class="keyword">return</span> []</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(nums)-<span class="number">2</span>):</span><br><span class="line">            l, r = i+<span class="number">1</span>, <span class="built_in">len</span>(nums)-<span class="number">1</span></span><br><span class="line">            <span class="comment"># drop duplicates 1</span></span><br><span class="line">            <span class="keyword">if</span> res != [] <span class="keyword">and</span> res[-<span class="number">1</span>][<span class="number">0</span>] == nums[i]: </span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">while</span> l &lt; r:</span><br><span class="line">                <span class="keyword">if</span> nums[i] + nums[l] + nums[r] == <span class="number">0</span>:</span><br><span class="line">                    res.append([nums[i], nums[l], nums[r]])</span><br><span class="line">                    <span class="comment"># drop duplicates 2</span></span><br><span class="line">                    <span class="keyword">while</span> l &lt; r-<span class="number">1</span> <span class="keyword">and</span> nums[l] == nums[l+<span class="number">1</span>]:</span><br><span class="line">                        l += <span class="number">1</span></span><br><span class="line">                    <span class="keyword">while</span> r &gt; l+<span class="number">1</span> <span class="keyword">and</span> nums[r] == nums[r-<span class="number">1</span>]:</span><br><span class="line">                        r -= <span class="number">1</span></span><br><span class="line">                <span class="keyword">if</span> nums[i] + nums[l] + nums[r] &gt; <span class="number">0</span>:</span><br><span class="line">                    r -= <span class="number">1</span></span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    l += <span class="number">1</span>          </span><br><span class="line">        <span class="keyword">return</span> res</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>先排序</li>
+<li>设置i循环以及left，right两个指针（双指针法）</li>
+<li>关键是去重！！！<ul>
+<li>循环i对比是否重复<code>res[-1][0] == nums[i]</code></li>
+<li>左右指针是否重复</li>
+</ul>
+</li>
+<li>这里如果把<code>if nums[i] + nums[l] + nums[r] &gt; 0:</code>的<code>if</code>改成<code>elif</code>，会因为时间过长跑不出结果</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1GW4y127qo/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0015.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html#%E5%8E%BB%E9%87%8D%E9%80%BB%E8%BE%91%E7%9A%84%E6%80%9D%E8%80%83">文章</a></p>
+<h4 id="18-4Sum"><a href="#18-4Sum" class="headerlink" title="18. 4Sum"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/4sum/">18. 4Sum</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">fourSum</span>(<span class="params">self, nums: <span class="type">List</span>[<span class="built_in">int</span>], target: <span class="built_in">int</span></span>) -&gt; <span class="type">List</span>[<span class="type">List</span>[<span class="built_in">int</span>]]:</span><br><span class="line">        nums = <span class="built_in">sorted</span>(nums)</span><br><span class="line">        res = []</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(nums)):</span><br><span class="line">            <span class="keyword">if</span> i &gt; <span class="number">0</span> <span class="keyword">and</span> nums[i] == nums[i-<span class="number">1</span>]: <span class="keyword">continue</span></span><br><span class="line">            <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(i+<span class="number">1</span>, <span class="built_in">len</span>(nums)):</span><br><span class="line">                <span class="keyword">if</span> j &gt; i+<span class="number">1</span> <span class="keyword">and</span> nums[j] == nums[j-<span class="number">1</span>]: <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">                p = j + <span class="number">1</span></span><br><span class="line">                q = <span class="built_in">len</span>(nums)-<span class="number">1</span></span><br><span class="line">                <span class="keyword">while</span> p &lt; q:</span><br><span class="line">                    <span class="keyword">if</span> nums[i] + nums[j] + nums[p] + nums[q] &gt; target:</span><br><span class="line">                        q -= <span class="number">1</span></span><br><span class="line">                    <span class="keyword">elif</span> nums[i] + nums[j] + nums[p] + nums[q] &lt; target:</span><br><span class="line">                        p += <span class="number">1</span></span><br><span class="line">                    <span class="keyword">else</span>:                           </span><br><span class="line">                        res.append([nums[i], nums[j], nums[p], nums[q]])</span><br><span class="line">                        <span class="keyword">while</span> p &lt; q <span class="keyword">and</span> nums[p] == nums[p+<span class="number">1</span>]:</span><br><span class="line">                            p += <span class="number">1</span></span><br><span class="line">                        <span class="keyword">while</span> p &lt; q <span class="keyword">and</span> nums[q] == nums[q-<span class="number">1</span>]:</span><br><span class="line">                            q -= <span class="number">1</span></span><br><span class="line">                        p += <span class="number">1</span></span><br><span class="line">                        q -= <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> res</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>和前面一题思路相同，只是加了一层for loop</li>
+<li>最后第二次除重的时候while判别需要再次写上<code>p &lt; q</code>判别条件</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1DS4y147US/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0018.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay7/" data-id="cl8kevfrs0004y7sb1e6i3tox" data-title="Leetcode Practice Day 7" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-LeetcodeDay4" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/09/25/LeetcodeDay4/" class="article-date">
+  <time class="dt-published" datetime="2022-09-25T17:14:07.175Z" itemprop="datePublished">2022-09-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/09/25/LeetcodeDay4/">Leetcode Practice Day 4</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="24-Swap-Nodes-in-Pairs"><a href="#24-Swap-Nodes-in-Pairs" class="headerlink" title="24. Swap Nodes in Pairs"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/swap-nodes-in-pairs/">24. Swap Nodes in Pairs</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">swapPairs</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode]</span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		dummy = cur = ListNode(<span class="built_in">next</span> = head) <span class="comment"># dummy head</span></span><br><span class="line">		<span class="keyword">while</span> cur.<span class="built_in">next</span> <span class="keyword">and</span> cur.<span class="built_in">next</span>.<span class="built_in">next</span> != <span class="literal">None</span>:</span><br><span class="line">			temp = cur.<span class="built_in">next</span> <span class="comment"># save node 1</span></span><br><span class="line">			temp1 = cur.<span class="built_in">next</span>.<span class="built_in">next</span>.<span class="built_in">next</span> <span class="comment"># save node 3</span></span><br><span class="line"></span><br><span class="line">			cur.<span class="built_in">next</span> = cur.<span class="built_in">next</span>.<span class="built_in">next</span> <span class="comment"># dummy point to node 2</span></span><br><span class="line">			cur.<span class="built_in">next</span>.<span class="built_in">next</span> = temp <span class="comment"># node 2 point to node 1</span></span><br><span class="line">			temp.<span class="built_in">next</span> = temp1 <span class="comment"># node1 point to node 3</span></span><br><span class="line"></span><br><span class="line">			cur = cur.<span class="built_in">next</span>.<span class="built_in">next</span> <span class="comment"># move node to the next set</span></span><br><span class="line">		<span class="keyword">return</span> dummy.<span class="built_in">next</span> </span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>从dummy节点开始</li>
+<li>改方向前先存储第一、第三节点</li>
+<li>两两挪动</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1YT411g7br/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0024.%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html">文章</a></p>
+<h4 id="19-Remove-Nth-Node-From-End-of-List-x3D"><a href="#19-Remove-Nth-Node-From-End-of-List-x3D" class="headerlink" title="19. Remove Nth Node From End of List&#x3D;"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list/">19. Remove Nth Node From End of List</a>&#x3D;</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">removeNthFromEnd</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode], n: <span class="built_in">int</span></span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		dummyhead = ListNode(<span class="built_in">next</span> = head)</span><br><span class="line">		fast = slow = dummyhead</span><br><span class="line">		<span class="keyword">while</span> n != <span class="number">0</span>:</span><br><span class="line">			fast = fast.<span class="built_in">next</span></span><br><span class="line">			n -= <span class="number">1</span></span><br><span class="line">		<span class="keyword">while</span> fast.<span class="built_in">next</span> != <span class="literal">None</span>:</span><br><span class="line">			fast = fast.<span class="built_in">next</span></span><br><span class="line">			slow = slow.<span class="built_in">next</span></span><br><span class="line">		slow.<span class="built_in">next</span> = slow.<span class="built_in">next</span>.<span class="built_in">next</span></span><br><span class="line">		<span class="keyword">return</span> dummyhead.<span class="built_in">next</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>注意边界条件 <code>fast.next != None</code></li>
+<li>设置两个指针</li>
+<li>设置虚拟头节点</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1vW4y1U7Gf/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0019.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
+<h4 id="面试题-02-07-Intersection-of-Two-Linked-Lists-LCCI"><a href="#面试题-02-07-Intersection-of-Two-Linked-Lists-LCCI" class="headerlink" title="面试题 02.07. Intersection of Two Linked Lists LCCI"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/">面试题 02.07. Intersection of Two Linked Lists LCCI</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">getIntersectionNode</span>(<span class="params">self, headA: ListNode, headB: ListNode</span>) -&gt; ListNode:</span><br><span class="line">		curA, curB = headA, headB</span><br><span class="line">		<span class="keyword">if</span> curA <span class="keyword">is</span> <span class="literal">None</span> <span class="keyword">or</span> curB <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line">		<span class="keyword">while</span> curA != curB:</span><br><span class="line">			curA = curA.<span class="built_in">next</span> <span class="keyword">if</span> curA != <span class="literal">None</span> <span class="keyword">else</span> headB</span><br><span class="line">			curB = curB.<span class="built_in">next</span> <span class="keyword">if</span> curB != <span class="literal">None</span> <span class="keyword">else</span> headA</span><br><span class="line">		<span class="keyword">return</span> curA</span><br></pre></td></tr></table></figure>
+<ul>
+<li>设置双指针，两者最终会相遇</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://programmercarl.com/%E9%9D%A2%E8%AF%95%E9%A2%9802.07.%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
+<h4 id="142-Linked-List-Cycle-II"><a href="#142-Linked-List-Cycle-II" class="headerlink" title="142. Linked List Cycle II"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/linked-list-cycle-ii/">142. Linked List Cycle II</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line"></span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">detectCycle</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode]</span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		slow = fast = head</span><br><span class="line">		<span class="keyword">while</span> fast <span class="keyword">and</span> fast.<span class="built_in">next</span> <span class="keyword">and</span> fast.<span class="built_in">next</span>.<span class="built_in">next</span>: <span class="comment">#如果能有环</span></span><br><span class="line">			slow = slow.<span class="built_in">next</span></span><br><span class="line">			fast = fast.<span class="built_in">next</span>.<span class="built_in">next</span></span><br><span class="line">			<span class="keyword">if</span> fast == slow:</span><br><span class="line">				p = slow</span><br><span class="line">				q = head</span><br><span class="line">				<span class="keyword">while</span> p != q: </span><br><span class="line">					p = p.<span class="built_in">next</span></span><br><span class="line">					q = q.<span class="built_in">next</span></span><br><span class="line">				<span class="keyword">return</span> p</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">None</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>关键点：从相遇点和出发点同时出发找到环入口<br>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1if4y1d7ob/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0142.%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html#_142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8ii">文章</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay4/" data-id="cl8kevfrs0005y7sbattj6j43" data-title="Leetcode Practice Day 4" class="article-share-link">Share</a>
       
       
       
@@ -415,15 +488,15 @@
           </li>
         
           <li>
-            <a href="/2022/09/25/LeetcodeDay4/">Leetcode Practice Day 4</a>
-          </li>
-        
-          <li>
             <a href="/2022/09/25/LeetcodeDay3/">Leetcode Practice Day 3</a>
           </li>
         
           <li>
             <a href="/2022/09/25/LeetcodeDay6/">Leetcode Practice Day 6</a>
+          </li>
+        
+          <li>
+            <a href="/2022/09/25/LeetcodeDay7/">Leetcode Practice Day 7</a>
           </li>
         
       </ul>
