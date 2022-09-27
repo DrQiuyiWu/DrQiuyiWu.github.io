@@ -114,7 +114,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/25/LeetcodeDay1/" data-id="cl8hq9qq70000iusbgh9m4mbm" data-title="Leetcode Practice Day 1" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay1/" data-id="cl8jklxnt0000j9sbdzz42zxa" data-title="Leetcode Practice Day 1" class="article-share-link">Share</a>
       
       
       
@@ -180,64 +180,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/25/LeetcodeDay2/" data-id="cl8hq9qqc0001iusbf9jq90u7" data-title="Leetcode Practice Day 2" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-LeetcodeDay3" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/09/25/LeetcodeDay3/" class="article-date">
-  <time class="dt-published" datetime="2022-09-25T17:14:07.175Z" itemprop="datePublished">2022-09-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/25/LeetcodeDay3/">Leetcode Practice Day 3</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h4 id="203-Remove-Linked-List-Elements"><a href="#203-Remove-Linked-List-Elements" class="headerlink" title="203. Remove Linked List Elements"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-linked-list-elements/">203. Remove Linked List Elements</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Define singly-linked list</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, val = <span class="number">0</span>, <span class="built_in">next</span> = <span class="literal">None</span></span>):</span><br><span class="line">	self.val = val</span><br><span class="line">	self.<span class="built_in">next</span> = <span class="built_in">next</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">removeElements</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode], val: <span class="built_in">int</span></span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		dummy_head = ListNode(<span class="built_in">next</span> = head)</span><br><span class="line">		cur = dummy_head</span><br><span class="line">		<span class="keyword">while</span> cur.<span class="built_in">next</span> != <span class="literal">None</span>:</span><br><span class="line">			<span class="keyword">if</span> cur.<span class="built_in">next</span>.val == val:</span><br><span class="line">				cur.<span class="built_in">next</span> = cur.<span class="built_in">next</span>.<span class="built_in">next</span></span><br><span class="line">			<span class="keyword">else</span>:</span><br><span class="line">				cur = cur.<span class="built_in">next</span></span><br><span class="line">		<span class="keyword">return</span> dummy_head.<span class="built_in">next</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>建立一个虚拟头节点</li>
-<li>把节点直接跨越连接到下下个 <code>cur.next = cur.next.next</code></li>
-</ul>
-<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV18B4y1s7R9/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0203.%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
-<h4 id="707-Design-Linked-List"><a href="#707-Design-Linked-List" class="headerlink" title="707. Design Linked List"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/design-linked-list/">707. Design Linked List</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Node</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, val</span>):</span><br><span class="line">		self.val = val</span><br><span class="line">		self.<span class="built_in">next</span> = <span class="literal">None</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">MyLinkedList</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">		self._head = Node(<span class="number">0</span>)</span><br><span class="line">		self._count = <span class="number">0</span></span><br><span class="line">		</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">get</span>(<span class="params">self, index: <span class="built_in">int</span></span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">		<span class="keyword">if</span> <span class="number">0</span> &lt;= index &lt; self._count:</span><br><span class="line">			cur = self._head</span><br><span class="line">			<span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(index + <span class="number">1</span>):</span><br><span class="line">				cur = cur.<span class="built_in">next</span></span><br><span class="line">			<span class="keyword">return</span> cur.val</span><br><span class="line">		<span class="keyword">else</span>: <span class="keyword">return</span> -<span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">addAtHead</span>(<span class="params">self, val: <span class="built_in">int</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">	self.addAtIndex(<span class="number">0</span>, val)</span><br><span class="line">	</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">addAtTail</span>(<span class="params">self, val: <span class="built_in">int</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">	self.addAtIndex(self._count, val)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">addAtIndex</span>(<span class="params">self, index: <span class="built_in">int</span>, val: <span class="built_in">int</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">	<span class="keyword">if</span> index &lt; <span class="number">0</span>: <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">	<span class="keyword">elif</span> index &gt; self._count: <span class="keyword">return</span></span><br><span class="line">	self._count += <span class="number">1</span></span><br><span class="line">	add_node = Node(val)</span><br><span class="line">	prev_node, cur_node = <span class="literal">None</span>, self._head</span><br><span class="line">	<span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(index+<span class="number">1</span>):</span><br><span class="line">		prev_node, cur_node = cur_node, cur_node.<span class="built_in">next</span></span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		prev_node.<span class="built_in">next</span>, add_node.<span class="built_in">next</span> = add_node, cur_node</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">deleteAtIndex</span>(<span class="params">self, index: <span class="built_in">int</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">	<span class="keyword">if</span> <span class="number">0</span> &lt;= index &lt; self._count:</span><br><span class="line">		self._count -= <span class="number">1</span></span><br><span class="line">		pre, cur = <span class="literal">None</span>, self._head</span><br><span class="line">		<span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(index+<span class="number">1</span>):</span><br><span class="line">			pre, cur = cur, cur.<span class="built_in">next</span></span><br><span class="line">		<span class="keyword">else</span>:</span><br><span class="line">			pre.<span class="built_in">next</span>, cur.<span class="built_in">next</span> = cur.<span class="built_in">next</span>, <span class="literal">None</span></span><br></pre></td></tr></table></figure>
-
-<p>还在理解中。相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1FU4y1X7WD/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0707.%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8.html#%E4%BB%A3%E7%A0%81">文章</a></p>
-<h4 id="206-Reverse-Linked-List"><a href="#206-Reverse-Linked-List" class="headerlink" title="206. Reverse Linked List"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/reverse-linked-list/">206. Reverse Linked List</a></h4><h5 id="双指针法"><a href="#双指针法" class="headerlink" title="双指针法"></a>双指针法</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">reverseList</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode]</span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		cur = head</span><br><span class="line">		pre = <span class="literal">None</span></span><br><span class="line">		<span class="keyword">while</span> cur!= <span class="literal">None</span>:</span><br><span class="line">			temp = cur.<span class="built_in">next</span></span><br><span class="line">			cur.<span class="built_in">next</span> = pre</span><br><span class="line"><span class="comment"># store next nodes</span></span><br><span class="line">			pre = cur</span><br><span class="line">			cur = temp</span><br><span class="line">		<span class="keyword">return</span> pre</span><br></pre></td></tr></table></figure>
-<ul>
-<li>先储存 <code>cur.next</code> 再改方向</li>
-</ul>
-<h5 id="递归法"><a href="#递归法" class="headerlink" title="递归法"></a>递归法</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">reverseList</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode]</span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		<span class="keyword">def</span> <span class="title function_">reverse</span>(<span class="params">pre, cur</span>):</span><br><span class="line">			<span class="keyword">while</span> <span class="keyword">not</span> cur:</span><br><span class="line">				<span class="keyword">return</span> pre</span><br><span class="line">			temp = cur.<span class="built_in">next</span></span><br><span class="line">			cur.<span class="built_in">next</span> = pre</span><br><span class="line">			<span class="keyword">return</span> reverse(cur, temp)</span><br><span class="line">		<span class="keyword">return</span> reverse(<span class="literal">None</span>, head)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>建立函数reverse，其余的和双指针法异曲同工<br>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1nB4y1i7eL/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0206.%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/25/LeetcodeDay3/" data-id="cl8hq9qqd0002iusb33s450w7" data-title="Leetcode Practice Day 3" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay2/" data-id="cl8jklxny0001j9sbchuc4tgk" data-title="Leetcode Practice Day 2" class="article-share-link">Share</a>
       
       
       
@@ -299,7 +242,129 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/25/LeetcodeDay4/" data-id="cl8hq9qqd0003iusbcxnm8xmx" data-title="Leetcode Practice Day 4" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay4/" data-id="cl8jklxnz0002j9sb359idmon" data-title="Leetcode Practice Day 4" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-LeetcodeDay3" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/09/25/LeetcodeDay3/" class="article-date">
+  <time class="dt-published" datetime="2022-09-25T17:14:07.175Z" itemprop="datePublished">2022-09-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/09/25/LeetcodeDay3/">Leetcode Practice Day 3</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="203-Remove-Linked-List-Elements"><a href="#203-Remove-Linked-List-Elements" class="headerlink" title="203. Remove Linked List Elements"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-linked-list-elements/">203. Remove Linked List Elements</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Define singly-linked list</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, val = <span class="number">0</span>, <span class="built_in">next</span> = <span class="literal">None</span></span>):</span><br><span class="line">	self.val = val</span><br><span class="line">	self.<span class="built_in">next</span> = <span class="built_in">next</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">removeElements</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode], val: <span class="built_in">int</span></span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		dummy_head = ListNode(<span class="built_in">next</span> = head)</span><br><span class="line">		cur = dummy_head</span><br><span class="line">		<span class="keyword">while</span> cur.<span class="built_in">next</span> != <span class="literal">None</span>:</span><br><span class="line">			<span class="keyword">if</span> cur.<span class="built_in">next</span>.val == val:</span><br><span class="line">				cur.<span class="built_in">next</span> = cur.<span class="built_in">next</span>.<span class="built_in">next</span></span><br><span class="line">			<span class="keyword">else</span>:</span><br><span class="line">				cur = cur.<span class="built_in">next</span></span><br><span class="line">		<span class="keyword">return</span> dummy_head.<span class="built_in">next</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>建立一个虚拟头节点</li>
+<li>把节点直接跨越连接到下下个 <code>cur.next = cur.next.next</code></li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV18B4y1s7R9/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0203.%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
+<h4 id="707-Design-Linked-List"><a href="#707-Design-Linked-List" class="headerlink" title="707. Design Linked List"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/design-linked-list/">707. Design Linked List</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Node</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, val</span>):</span><br><span class="line">		self.val = val</span><br><span class="line">		self.<span class="built_in">next</span> = <span class="literal">None</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">MyLinkedList</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">		self._head = Node(<span class="number">0</span>)</span><br><span class="line">		self._count = <span class="number">0</span></span><br><span class="line">		</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">get</span>(<span class="params">self, index: <span class="built_in">int</span></span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">		<span class="keyword">if</span> <span class="number">0</span> &lt;= index &lt; self._count:</span><br><span class="line">			cur = self._head</span><br><span class="line">			<span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(index + <span class="number">1</span>):</span><br><span class="line">				cur = cur.<span class="built_in">next</span></span><br><span class="line">			<span class="keyword">return</span> cur.val</span><br><span class="line">		<span class="keyword">else</span>: <span class="keyword">return</span> -<span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">addAtHead</span>(<span class="params">self, val: <span class="built_in">int</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">	self.addAtIndex(<span class="number">0</span>, val)</span><br><span class="line">	</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">addAtTail</span>(<span class="params">self, val: <span class="built_in">int</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">	self.addAtIndex(self._count, val)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">addAtIndex</span>(<span class="params">self, index: <span class="built_in">int</span>, val: <span class="built_in">int</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">	<span class="keyword">if</span> index &lt; <span class="number">0</span>: <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">	<span class="keyword">elif</span> index &gt; self._count: <span class="keyword">return</span></span><br><span class="line">	self._count += <span class="number">1</span></span><br><span class="line">	add_node = Node(val)</span><br><span class="line">	prev_node, cur_node = <span class="literal">None</span>, self._head</span><br><span class="line">	<span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(index+<span class="number">1</span>):</span><br><span class="line">		prev_node, cur_node = cur_node, cur_node.<span class="built_in">next</span></span><br><span class="line">	<span class="keyword">else</span>:</span><br><span class="line">		prev_node.<span class="built_in">next</span>, add_node.<span class="built_in">next</span> = add_node, cur_node</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">deleteAtIndex</span>(<span class="params">self, index: <span class="built_in">int</span></span>) -&gt; <span class="literal">None</span>:</span><br><span class="line">	<span class="keyword">if</span> <span class="number">0</span> &lt;= index &lt; self._count:</span><br><span class="line">		self._count -= <span class="number">1</span></span><br><span class="line">		pre, cur = <span class="literal">None</span>, self._head</span><br><span class="line">		<span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(index+<span class="number">1</span>):</span><br><span class="line">			pre, cur = cur, cur.<span class="built_in">next</span></span><br><span class="line">		<span class="keyword">else</span>:</span><br><span class="line">			pre.<span class="built_in">next</span>, cur.<span class="built_in">next</span> = cur.<span class="built_in">next</span>, <span class="literal">None</span></span><br></pre></td></tr></table></figure>
+
+<p>还在理解中。相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1FU4y1X7WD/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0707.%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8.html#%E4%BB%A3%E7%A0%81">文章</a></p>
+<h4 id="206-Reverse-Linked-List"><a href="#206-Reverse-Linked-List" class="headerlink" title="206. Reverse Linked List"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/reverse-linked-list/">206. Reverse Linked List</a></h4><h5 id="双指针法"><a href="#双指针法" class="headerlink" title="双指针法"></a>双指针法</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">reverseList</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode]</span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		cur = head</span><br><span class="line">		pre = <span class="literal">None</span></span><br><span class="line">		<span class="keyword">while</span> cur!= <span class="literal">None</span>:</span><br><span class="line">			temp = cur.<span class="built_in">next</span></span><br><span class="line">			cur.<span class="built_in">next</span> = pre</span><br><span class="line"><span class="comment"># store next nodes</span></span><br><span class="line">			pre = cur</span><br><span class="line">			cur = temp</span><br><span class="line">		<span class="keyword">return</span> pre</span><br></pre></td></tr></table></figure>
+<ul>
+<li>先储存 <code>cur.next</code> 再改方向</li>
+</ul>
+<h5 id="递归法"><a href="#递归法" class="headerlink" title="递归法"></a>递归法</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">reverseList</span>(<span class="params">self, head: <span class="type">Optional</span>[ListNode]</span>) -&gt; <span class="type">Optional</span>[ListNode]:</span><br><span class="line">		<span class="keyword">def</span> <span class="title function_">reverse</span>(<span class="params">pre, cur</span>):</span><br><span class="line">			<span class="keyword">while</span> <span class="keyword">not</span> cur:</span><br><span class="line">				<span class="keyword">return</span> pre</span><br><span class="line">			temp = cur.<span class="built_in">next</span></span><br><span class="line">			cur.<span class="built_in">next</span> = pre</span><br><span class="line">			<span class="keyword">return</span> reverse(cur, temp)</span><br><span class="line">		<span class="keyword">return</span> reverse(<span class="literal">None</span>, head)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>建立函数reverse，其余的和双指针法异曲同工<br>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1nB4y1i7eL/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0206.%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay3/" data-id="cl8jklxo00003j9sbcqcu1hcc" data-title="Leetcode Practice Day 3" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-LeetcodeDay6" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/09/25/LeetcodeDay6/" class="article-date">
+  <time class="dt-published" datetime="2022-09-25T17:14:07.175Z" itemprop="datePublished">2022-09-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/09/25/LeetcodeDay6/">Leetcode Practice Day 6</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="242-Valid-Anagram"><a href="#242-Valid-Anagram" class="headerlink" title="242. Valid Anagram"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/valid-anagram/">242. Valid Anagram</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">isAnagram</span>(<span class="params">self, s: <span class="built_in">str</span>, t: <span class="built_in">str</span></span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        record = [<span class="number">0</span>]*<span class="number">26</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(s)):</span><br><span class="line">            record[<span class="built_in">ord</span>(s[i]) - <span class="built_in">ord</span>(<span class="string">&quot;a&quot;</span>)] += <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(t)):</span><br><span class="line">            record[<span class="built_in">ord</span>(t[i]) - <span class="built_in">ord</span>(<span class="string">&quot;a&quot;</span>)] -= <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(record)):</span><br><span class="line">            <span class="keyword">if</span> record[i] != <span class="number">0</span>:</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line">        <span class="keyword">else</span>: <span class="keyword">return</span> <span class="literal">True</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>对ord()的使用，而无需知道ASCII</li>
+<li>哈希表的使用</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1YG411p7BA/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0242.%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.html#%E6%80%9D%E8%B7%AF">文章</a></p>
+<h4 id="349-Intersection-of-Two-Arrays"><a href="#349-Intersection-of-Two-Arrays" class="headerlink" title="349. Intersection of Two Arrays"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/intersection-of-two-arrays/">349. Intersection of Two Arrays</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">intersection</span>(<span class="params">self, nums1: <span class="type">List</span>[<span class="built_in">int</span>], nums2: <span class="type">List</span>[<span class="built_in">int</span>]</span>) -&gt; <span class="type">List</span>[<span class="built_in">int</span>]:</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">list</span>(<span class="built_in">set</span>(nums1) &amp; <span class="built_in">set</span>(nums2))</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>对set的考量</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ba411S7wu/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0349.%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86.html#_349-%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86">文章</a></p>
+<h4 id="202-Happy-Number"><a href="#202-Happy-Number" class="headerlink" title="202. Happy Number"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/happy-number/">202. Happy Number</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">isHappy</span>(<span class="params">self, n: <span class="built_in">int</span></span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        <span class="keyword">def</span> <span class="title function_">happysum</span>(<span class="params">n</span>):</span><br><span class="line">            n_sum = <span class="number">0</span></span><br><span class="line">            <span class="keyword">while</span> n != <span class="number">0</span>:</span><br><span class="line">                n_sum += (n%<span class="number">10</span>)**<span class="number">2</span></span><br><span class="line">                n = n//<span class="number">10</span></span><br><span class="line">            <span class="keyword">return</span> n_sum </span><br><span class="line">        </span><br><span class="line">        record = <span class="built_in">set</span>()</span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            n = happysum(n)</span><br><span class="line">            <span class="keyword">if</span> happysum(n) == <span class="number">1</span>:</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">            <span class="keyword">if</span> happysum(n) <span class="keyword">in</span> record:</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                record.add(n)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>建立空集<code>record = set()</code>存储数字，如果有重复就返回<code>false</code></li>
+<li>通过求余和整除来计算每个位数的值</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://programmercarl.com/0202.%E5%BF%AB%E4%B9%90%E6%95%B0.html">文章</a></p>
+<h4 id="1-Two-Sum"><a href="#1-Two-Sum" class="headerlink" title="1. Two Sum"></a><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/two-sum/">1. Two Sum</a></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Method 1: </span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">twoSum</span>(<span class="params">self, nums: <span class="type">List</span>[<span class="built_in">int</span>], target: <span class="built_in">int</span></span>) -&gt; <span class="type">List</span>[<span class="built_in">int</span>]:</span><br><span class="line">        record = <span class="built_in">dict</span>()</span><br><span class="line">        <span class="keyword">for</span> idx,val <span class="keyword">in</span> <span class="built_in">enumerate</span>(nums):</span><br><span class="line">            <span class="keyword">if</span> target - val <span class="keyword">not</span> <span class="keyword">in</span> record:</span><br><span class="line">                record[val] = idx</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="keyword">return</span> [idx, record[target-val]]</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Method 2:</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">twoSum</span>(<span class="params">self, nums: <span class="type">List</span>[<span class="built_in">int</span>], target: <span class="built_in">int</span></span>) -&gt; <span class="type">List</span>[<span class="built_in">int</span>]:</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(nums)):</span><br><span class="line">            <span class="keyword">if</span> target - nums[i] <span class="keyword">in</span> nums <span class="keyword">and</span> nums.index(target - nums[i]) != i:</span><br><span class="line">                <span class="keyword">return</span> [i, nums.index(target - nums[i])]</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">None</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>使用dictionary同时存储数值和位置</li>
+</ul>
+<p>相关<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1aT41177mK/">视频</a>与<a target="_blank" rel="noopener" href="https://programmercarl.com/0001.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC">文章</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/09/25/LeetcodeDay6/" data-id="cl8jklxo20004j9sb3ac0cr9f" data-title="Leetcode Practice Day 6" class="article-share-link">Share</a>
       
       
       
@@ -350,11 +415,15 @@
           </li>
         
           <li>
+            <a href="/2022/09/25/LeetcodeDay4/">Leetcode Practice Day 4</a>
+          </li>
+        
+          <li>
             <a href="/2022/09/25/LeetcodeDay3/">Leetcode Practice Day 3</a>
           </li>
         
           <li>
-            <a href="/2022/09/25/LeetcodeDay4/">Leetcode Practice Day 4</a>
+            <a href="/2022/09/25/LeetcodeDay6/">Leetcode Practice Day 6</a>
           </li>
         
       </ul>
