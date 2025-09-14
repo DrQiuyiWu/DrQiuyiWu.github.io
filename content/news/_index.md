@@ -2,7 +2,7 @@
 title: "News"
 type: "section"
 ---
-- **2025-08**: Presented my postdoc work "Soft Post-Clustering Inference with EHR Applications" at JSM 2025! [[link]](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1995)
+- **2025-08**: Presented my postdoc work "Soft Post-Clustering Inference with EHR Applications" at JSM 2025! [[link]](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1995)[[link]](https://drive.google.com/file/d/160dXCaD0gsXpM1bwBeI95C3dXobDz3OL/view?usp=sharing)
 - **2025-07**: Received CWS Do-Bui Travel Award for JSM conference hosted in Nashville! [[link]](https://drive.google.com/file/d/1jBNa3UwNFexG5IF9XkG1hj_ps8-rRuRo/view?usp=sharing)
 - **2025-07**: Honored to be featured in the 40-minute interview episode of "Finding a Path in Data and Discovery with Qiuyi Wu"! [[link]](https://www.linkedin.com/posts/qiuyi-wu_finding-a-path-in-data-and-discovery-with-activity-7348016411702665218-J_Hx?utm_source=share&utm_medium=member_desktop&rcm=ACoAABZe-4wBKvMrSZmIwepgKOCtysDCd4Kt9Z0) The interview is available on YouTube[[❤️]](https://youtu.be/Gk-G6qgxZ80?si=hY3g7iy9oduon9HT), Spotify[[💚]](https://open.spotify.com/episode/7lBt2jK6DcEv3IR5x2Mq53?si=y_KQFiyERWuAfEt0enemgQ), Podcast[[💜]](https://podcasts.apple.com/podcast/id1709694241?i=1000718505137)!
 - **2025-06**: Received ASA Early-Career Travel Award for JSM conference hosted in Nashville! [[link]](https://drive.google.com/file/d/1qxl7jVGnLZmyRfEJYVHXEOLDjsB0qw8s/view?usp=sharing)
