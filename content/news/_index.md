@@ -2,9 +2,19 @@
 title: "News"
 type: "section"
 ---
-- **2024-08**: I'll join Duke as a postdoc next month! [[link]](https://scholars.duke.edu/person/Qiuyi.Wu)
+- **2025-08**: Presented my postdoc work ``Soft Post-Clustering Inference with EHR Applications" at JSM 2025! [[link]](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1995)
+- **2025-07**: Received CWS Do-Bui Travel Award for JSM conference hosted in Nashville! [[link]](...)
+- **2025-07**: Honored to be featured in the 40-minute interview episode of ``Finding a Path in Data and Discovery with Qiuyi Wu"! [[link]](https://www.linkedin.com/posts/qiuyi-wu_finding-a-path-in-data-and-discovery-with-activity-7348016411702665218-J_Hx?utm_source=share&utm_medium=member_desktop&rcm=ACoAABZe-4wBKvMrSZmIwepgKOCtysDCd4Kt9Z0)
+- **2025-06**: Received ASA Early-Career Travel Award for JSM conference hosted in Nashville! [[link]](...)
+- **2025-06**: Received ASA SSPA Conference Grant for JSM conference hosted in Nashville! [[link]](...)
+- **2025-05**: Attended IMSI Statistics Meets Tensors Workshop in Chicago thanks to NSF Travel Fund! [[link]](https://www.imsi.institute/activities/statistics-meets-tensors/)
+- **2025-04**: Gave 3 science lectures as a guest scientist to 7th Grade in Charles D. Owen Middle School! [[link]](...)
+- **2025-04**: Presented my thesis work at Duke Industry Statistics Symposium! [[link]](https://sites.duke.edu/diss/2025-poster-session-participants/)
+- **2025-03**: Honored to be invited to the North Carolina Executive Mansion as a volunteer scientist for this year’s NC Science Festival! [[link]](https://www.linkedin.com/posts/qiuyi-wu_honored-to-be-invited-to-the-north-carolina-activity-7309564821153218560-HGPN?utm_source=share&utm_medium=member_desktop&rcm=ACoAABZe-4wBKvMrSZmIwepgKOCtysDCd4Kt9Z0)
+- **2025-01**: Organized Poster Session ``From Foundations to Future of Informatics in Health Symposium" at Duke University! [[link]](https://sites.duke.edu/edhammond90/poster-session/)
+- **2024-08**: I'm joining Duke as a postdoc research fellow! [[link]](https://scholars.duke.edu/person/Qiuyi.Wu)
 - **2024-08**: Received Travel Award for FutureBAProf Workshop hosted in Iowa! [[link]](https://www.linkedin.com/posts/university-of-iowa-tippie-college-of-business_futurebaprof-activity-7231668808703258624-ET5J?utm_source=share&utm_medium=member_desktop)
-- **2024-08**: Presented my thesis work at JSM 2024 Section on Statistics in Imaging! [[link]](https://x.com/ChoweeWu/status/1820528473083097380)
+- **2024-08**: Presented my thesis work at JSM 2024 at Section on Statistics in Imaging! [[link]](https://x.com/ChoweeWu/status/1820528473083097380)
 - **2024-08**: Received ASA Travel Award for Preparing to Teach Statistics and Data Science (PTT) Workshop hosted in Oregon! [[link]](https://preparingtoteach.org/)
 - **2024-06**: Received Clinton Miller Award for Best Student Poster in SRCOS Summer Research Conference! [[link]](https://x.com/ChoweeWu/status/1798415638668718144)
 - **2024-06**: Received NSF/Boyd Harshbarger Travel Award for SRCOS Summer Research Conference! [[link]](https://x.com/ChoweeWu/status/1798415638668718144)
