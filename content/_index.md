@@ -111,7 +111,7 @@ sections:
         - **2025-04**: Gave 3 science lectures as a guest scientist to 7th Grade in Charles D. Owen Middle School! [[link]](https://drive.google.com/file/d/1esVJPj7pmbBElULU82QmTVFROis4fabo/view?usp=sharing)
         - **2025-04**: Presented my thesis work at Duke Industry Statistics Symposium! [[link]](https://sites.duke.edu/diss/2025-poster-session-participants/)
         - **2025-03**: Honored to be invited to North Carolina Executive Mansion as a volunteer scientist for NC Science Festival! [[link]](https://www.linkedin.com/posts/qiuyi-wu_honored-to-be-invited-to-the-north-carolina-activity-7309564821153218560-HGPN?utm_source=share&utm_medium=member_desktop&rcm=ACoAABZe-4wBKvMrSZmIwepgKOCtysDCd4Kt9Z0)
-        - **2025-01**: Organized Poster Session ``From Foundations to Future of Informatics in Health Symposium" at Duke University! [[link]](https://sites.duke.edu/edhammond90/poster-session/)
+        - **2025-01**: Organized Poster Session "From Foundations to Future of Informatics in Health Symposium" at Duke University! [[link]](https://sites.duke.edu/edhammond90/poster-session/)
         - **2025-01**: I will serve as an incoming officer (Treasurer) leading the Research Triangle Regional Organization of SRA in 2025! [[link]](https://drive.google.com/file/d/1Y8Q9M7kIgcNkYnpRP0XhfQ6-U1c-2itw/view?usp=sharing)
         - **2024-08**: I'll join Duke as a postdoc next month! [[link]](https://scholars.duke.edu/person/Qiuyi.Wu)
         - **2024-08**: Received Travel Award for FutureBAProf Workshop hosted in Iowa! [[link]](https://www.linkedin.com/posts/university-of-iowa-tippie-college-of-business_futurebaprof-activity-7231668808703258624-ET5J?utm_source=share&utm_medium=member_desktop)
