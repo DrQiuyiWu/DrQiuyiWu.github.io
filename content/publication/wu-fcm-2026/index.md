@@ -37,7 +37,7 @@ tags:
 featured: true
 
 
-#url_pdf: https://ascmo.copernicus.org/articles/8/205/2022/ascmo-8-205-2022.pdf
+url_pdf: 'https://drqiuyiwu.github.io/uploads/fcm_arxiv.pdf'
 url_code: 'https://github.com/QiuyiWu/WFCM'
 #url_dataset: 'https://zenodo.org/records/6425797'
 
