@@ -1,50 +1,25 @@
 ---
-title: 'Prenatal diurnal cortisol: Normative patterns and associations with affective
-  symptoms and stress'
+title: 'Do measures of general versus pregnancy-related anxiety have distinct maternal-fetal-placental biology?'
 authors:
-- Hannah R. Murphy
-- Yu Gu
-- admin
-- Jessica Brunner
-- Lisa S. Panisch
-- Meghan Best
-- Molly S. Arnold
 - Zoe T. Duberstein
-- Jenelle Putzig
-- Jennifer Carnahan
-- Susan W. Groth
-- Emily S. Barrett
+- Hannah Murphy
+- Qiuyi Wu
+- Ying Meng
+- Christina Wang
+- Roger Smith
+- Carolyn Salafia
+- Sadia Firoza Chowdhury
+- Emily Barrett
+- Kristin Scheible 
 - Xing Qiu
 - Thomas G. O’Connor
-date: '2022-09-01'
-publishDate: '2024-02-05T04:51:17.666563Z'
+date: '2025-07-25'
+publishDate: '2025-11-10T04:51:17.666563Z'
 publication_types:
 - article-journal
-doi: 10.1016/j.psyneuen.2022.105856
-abstract: The hypothalamic-pituitary-adrenal (HPA) axis in pregnancy has attracted
-  considerable research attention, in part, because it may be a mechanism by which
-  diverse prenatal exposures alter perinatal and child health outcomes. Symptoms of
-  affective disturbance and stress are among the most-studied prenatal factors associated
-  with HPA axis alterations, but there remains uncertainty about the nature of the
-  association because of the limitations to, and variability in, data collection and
-  analytic approaches. The current study capitalized on a prospective, longitudinal
-  pregnancy cohort that examined salivary diurnal cortisol, collected at 5 time points
-  across the day, at each trimester in a diverse sample of women. Detailed data on
-  affective symptoms and major life events were collected at each trimester, as were
-  data on health behaviors, medication, and socio-demographics. Results indicated
-  modest stability of individual differences in diurnal cortisol across pregnancy,
-  which was evident for diurnal slope (ICC = .20) and measures of total output (area
-  under the curve, ICC = .25); substantial gestation-related increases in total cortisol
-  output across pregnancy was also observed (p textless .001). Adjusting for health
-  behaviors, medication, and socio-demographic covariates, elevated levels of depressive
-  symptoms and major life events were significantly (p textless .05) associated with
-  a higher morning awakening value and flatter diurnal slope, which was evident across
-  all trimesters. In addition to the normative gestation-related changes in cortisol
-  production, our results demonstrate selective but robust associations between psychological
-  symptoms, stressors, and the HPA axis across gestation, and suggest both methodological
-  and mechanistic strategies for future study.
+doi: 10.1016/j.jad.2025.120673
+abstract: Anxiety during pregnancy is a clinical and public health concern that has been linked to adverse maternal and perinatal outcomes and, via developmental programming, altered fetal biology and behavior with lasting effects on health and development. Two anxiety phenotypes, pregnancy-related anxiety (PrA) and general prenatal anxiety (GenA), have been identified as showing distinct phenotypic patterns and differential associations with child health outcomes. This study tests the novel corollary hypothesis that these phenotypes can be differentiated according to maternal-fetal-placental biological pathways. Prenatal anxiety, stress physiology (diurnal cortisol and corticotropin releasing hormone), sex steroid, and placental biomarker data were collected from N = 317 participants in a prospective longitudinal pregnancy cohort study. We found clear evidence for phenotypic distinctions between pregnancy-related and general anxiety but modest to weak evidence for differential associations with maternal-fetal-placenta biology; generally stronger associations were obtained between maternal-fetal-placenta biology and pregnancy-related compared to general anxiety. Specifically, PrA - and not GenA - was associated with overall cortisol concentration (β = −0.20, SE = 0.06, p < .001) and a flatter diurnal slope (β = 0.02, SE = 0.01, p < .001). Similarly, only PrA was significantly associated with lower estrone (β = −0.01, SE = 0.006, p < .05), estradiol (β = −0.009, SE = 0.004, p < .05), and total testosterone (β = −0.02, SE = 0.009, p < .05) levels. The stronger associations between PrA and maternal-fetal-placenta biology may reflect its comparatively greater experiential and clinical relevance, which may have implications for prenatal intervention.
 tags:
-- HPA axis
 - Pregnancy
 - Prenatal anxiety
 - Prenatal cortisol
@@ -52,5 +27,5 @@ tags:
 - Prenatal stress
 links:
 - name: URL
-  url: https://www.sciencedirect.com/science/article/pii/S0306453022001974
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0165032725021159?dgcid=coauthor
 ---
