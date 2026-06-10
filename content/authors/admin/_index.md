@@ -138,8 +138,11 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+Starting July 2026, I will be an Assistant Professor of Biostatistics at the Department of Epidemiology & Biostatistics at Temple University.
 
-I am a postdoc research fellow in the Departments of Biostatistics & Bioinformatics at Duke University working with [Prof. Anru Zhang](https://anruzhang.github.io/index.html). I received my Ph.D. from the Department of Biostatistics & Computational Biology at University of Rochester under the supervision of [Prof. Xing Qiu](https://www.urmc.rochester.edu/biostat/people/faculty/qiu.aspx) in 2024. My research interests include functional data analysis, image processing and high dimensional data anlaysis. My thesis research attempts to bridge the gap between mathematics (partial differential equations) and statistics (kernel smoothing). The primary applications for my work are in image processing and denoising tasks. I actively seek extensive collaborations across departments, which help me build a strong foundation in translational data science while moving toward my broader goal of developing statistical tools for high-dimensional biomedical applications. Fun fact: my Erdős number is 3. 
+I was a postdoc research fellow in the Departments of Biostatistics & Bioinformatics at Duke University working with [Prof. Anru Zhang](https://anruzhang.github.io/index.html) and [Prof. Pixu Shi](https://pixushi.github.io/). I received my Ph.D. from the Department of Biostatistics & Computational Biology at University of Rochester under the supervision of [Prof. Xing Qiu](https://www.urmc.rochester.edu/biostat/people/faculty/qiu.aspx). My research interests include high dimensional data anlaysis, spatial statistics, functional data analysis, and multi-omics integration. Fun fact: my Erdős number is 3. 
+  
+<!--  My thesis research attempts to bridge the gap between mathematics (partial differential equations) and statistics (kernel smoothing). The primary applications for my work are in image processing and denoising tasks. I actively seek extensive collaborations across departments, which help me build a strong foundation in translational data science while moving toward my broader goal of developing statistical tools for high-dimensional biomedical applications. -->
 
 <figure>
     <img src="uploads/citationmap.png" alt="My Google Scholar Citation World Map" />
