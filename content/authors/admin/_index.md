@@ -138,7 +138,7 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Starting July 2026, I will be an Assistant Professor of Biostatistics at the Department of Epidemiology & Biostatistics at Temple University.
+Starting July 2026, I will join Temple University as a tenure-track Assistant Professor of Biostatistics in the [Department of Epidemiology & Biostatistics](https://cph.temple.edu/academics/departments/epidemiology-biostatistics). 
 
 I was a postdoc research fellow in the Departments of Biostatistics & Bioinformatics at Duke University working with [Prof. Anru Zhang](https://anruzhang.github.io/index.html) and [Prof. Pixu Shi](https://pixushi.github.io/). I received my Ph.D. from the Department of Biostatistics & Computational Biology at University of Rochester under the supervision of [Prof. Xing Qiu](https://www.urmc.rochester.edu/biostat/people/faculty/qiu.aspx). My research interests include high dimensional data anlaysis, spatial statistics, functional data analysis, and multi-omics integration. Fun fact: my Erdős number is 3. 
   
