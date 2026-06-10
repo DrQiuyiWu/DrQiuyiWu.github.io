@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Postdoc Research Fellow
+role: # Assistant Professor of Biostatistics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Duke University
-    url: https://scholars.duke.edu/person/Qiuyi.Wu
+  - name: # Temple University
+    url: 
 
 
 
