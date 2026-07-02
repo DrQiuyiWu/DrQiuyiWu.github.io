@@ -37,7 +37,7 @@ tags:
 featured: true
 
 
-url_pdf: 'https://drqiuyiwu.github.io/uploads/fcm_arxiv.pdf'
+url_pdf: 'https://arxiv.org/abs/2601.02656'
 url_code: 'https://github.com/QiuyiWu/WFCM'
 #url_dataset: 'https://zenodo.org/records/6425797'
 
