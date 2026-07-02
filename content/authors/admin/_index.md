@@ -140,15 +140,16 @@ highlight_name: true
 ---
 I am a Tenure-Track Assistant Professor of Biostatistics in the [Department of Epidemiology & Biostatistics](https://cph.temple.edu/academics/departments/epidemiology-biostatistics) at Barnett College of Public Health, Temple University. 
 
-<p style="color:#c62828; font-weight:bold;">
+<!-- <p style="color:#c62828; font-weight:bold;">
 🚀 OPEN POSITIONS: I am actively recruiting Ph.D. and master's students. Click <a href="/join/">here</a> to learn more about current opportunities.
-</p>
+</p> -->
 
 <div style="border:2px solid #c62828; padding:12px; border-radius:8px; background:#fff5f5;">
 <strong style="color:#c62828;">🚀 OPEN POSITIONS</strong><br>
 I am actively recruiting motivated <strong>Ph.D. and master's students</strong> interested in biostatistics, statistical learning, machine learning, and AI for biomedical and public health research.
-<a href="/openings/"><strong>Learn more →</strong></a>
+<a href="/join/"><strong>Learn more →</strong></a>
 </div>
+
 
 
 Previously, I was a postdoc research fellow in the Departments of Biostatistics & Bioinformatics at Duke University working with [Prof. Anru Zhang](https://anruzhang.github.io/index.html) and [Prof. Pixu Shi](https://pixushi.github.io/). I received my Ph.D. from the Department of Biostatistics & Computational Biology at University of Rochester under the supervision of [Prof. Xing Qiu](https://www.urmc.rochester.edu/biostat/people/faculty/qiu.aspx). My research interests include high dimensional data anlaysis, spatial statistics, functional data analysis, and multi-omics integration. Fun fact: my Erdős number is 3. 
