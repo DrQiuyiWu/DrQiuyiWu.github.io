@@ -22,7 +22,9 @@ main:
   - name: Accomplishments
     url: '#award'
     weight: 50
-
+  - name: Open Positions
+    url: join/
+    weight: 15
   - name: Contact
     url: '#contact'
     weight: 60
