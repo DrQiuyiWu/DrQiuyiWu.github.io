@@ -58,7 +58,7 @@ Students may have opportunities to
 
 ### Current Temple Master Students
 
-Motivated Temple students with quantitative and programming backgrounds are encouraged to contact me regarding research opportunities.
+Motivated Temple students with quantitative and programming backgrounds are encouraged to contact me directly regarding research opportunities. Feel free to stop by my office or schedule an appointment during my office hours to discuss potential projects and ways to get involved.
 
 
 # Prospective Students
