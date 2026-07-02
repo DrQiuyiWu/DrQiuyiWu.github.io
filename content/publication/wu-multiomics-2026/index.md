@@ -51,5 +51,4 @@ image:
   #ecaption: 'Image credit: [**Wu et al.**](https://ascmo.copernicus.org/articles/8/205/2022/)'
   focal_point: ""
   preview_only: false
-
 ---
