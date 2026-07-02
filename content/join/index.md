@@ -56,7 +56,7 @@ Students may have opportunities to
 - Analyze large-scale biomedical and environmental datasets
 - Contribute to conference presentations and peer-reviewed publications
 
-### Current Temple Master Students
+### Current Temple Master's Students
 
 Motivated Temple students with quantitative and programming backgrounds are encouraged to contact me directly regarding research opportunities. Feel free to stop by my office or schedule an appointment during my office hours to discuss potential projects and ways to get involved.
 
