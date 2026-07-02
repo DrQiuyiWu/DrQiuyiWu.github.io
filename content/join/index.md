@@ -4,7 +4,6 @@ date: 2026-07-01
 draft: false
 ---
 
-# Join My Research Group
 
 Thank you for your interest in joining my research group!
 
@@ -14,7 +13,7 @@ Students in my group will develop statistical and machine learning methods for c
 
 Before reaching out, please read the information below carefully. This will help you determine whether my research group is a good fit for your interests and background.
 
-## Ph.D. Students
+### Ph.D. Students
 
 I am actively recruiting Ph.D. students interested in developing novel biostatistical methods for environmental epidemiology, biomedical science, and public health.
 
@@ -28,7 +27,7 @@ Current research areas include:
 - Environmental epidemiology
 - Biomedical data science
 
-### Ideal Background
+## Ideal Background
 I welcome applicants with strong quantitative backgrounds in
 
 - Statistics
@@ -46,7 +45,7 @@ Applicants should be enthusiastic about developing new statistical methodology, 
 
 
 
-## Master's Students
+### Master's Students
 
 I also welcome inquiries from master's students interested in gaining research experience through independent study or research assistantships.
 
@@ -57,7 +56,7 @@ Students may have opportunities to
 - Analyze large-scale biomedical and environmental datasets
 - Contribute to conference presentations and peer-reviewed publications
 
-## Current Temple Master Students
+### Current Temple Master Students
 
 Motivated Temple students with quantitative and programming backgrounds are encouraged to contact me regarding research opportunities.
 
