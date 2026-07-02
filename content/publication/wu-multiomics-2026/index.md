@@ -1,5 +1,5 @@
 ---
-title: Integrated metabolomics and proteomics from voxelated cortical hemispheres of adult rhesus monkeys
+title: "Integrated metabolomics and proteomics from voxelated cortical hemispheres of adult rhesus monkeys"
 authors:
 - admin
 - Alev M. Brigande
