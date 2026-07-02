@@ -60,6 +60,7 @@ jobs:
         with:
           path: ./public
 
+
   # Deploy website to GitHub Pages hosting
   deploy:
     if: github.repository_owner != 'HugoBlox'

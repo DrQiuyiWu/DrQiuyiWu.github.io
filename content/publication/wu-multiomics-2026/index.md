@@ -7,7 +7,7 @@ authors:
 - Pixu Shi
 - Anita A. Disney
 date: '2026-04-16'
-publishDate: '2026-04-16T04:51:17.674710Z'
+#publishDate: '2026-04-16T04:51:17.674710Z'
 publication_types:
 - article-journal
 publication: "BioRxiv"
@@ -48,7 +48,7 @@ url_pdf: https://www.biorxiv.org/content/10.64898/2026.04.04.716423v2
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  #ecaption: 'Image credit: [**Wu et al.**](https://ascmo.copernicus.org/articles/8/205/2022/)'
+  caption: 'Image credit: [**Wu et al.**]()'
   focal_point: ""
   preview_only: false
 ---
