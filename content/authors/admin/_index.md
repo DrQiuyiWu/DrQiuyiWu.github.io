@@ -109,7 +109,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:qiuyi.wu@duke.edu
+    link: mailto:qiuyi.wu@temple.edu
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/ChoweeWu
@@ -138,14 +138,14 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Starting July 2026, I am joining Temple University as a tenure-track Assistant Professor of Biostatistics in the [Department of Epidemiology & Biostatistics](https://cph.temple.edu/academics/departments/epidemiology-biostatistics). 
+I am a Tenure-Track Assistant Professor of Biostatistics in the [Department of Epidemiology & Biostatistics](https://cph.temple.edu/academics/departments/epidemiology-biostatistics) at Barnett College of Public Health, Temple University. 
 
 <p style="color:#c62828; font-weight:bold;">
 🚀 OPEN POSITIONS: I am actively recruiting Ph.D. and master's students. Click <a href="/join/">here</a> to learn more about current opportunities.
 </p>
 
 
-I was a postdoc research fellow in the Departments of Biostatistics & Bioinformatics at Duke University working with [Prof. Anru Zhang](https://anruzhang.github.io/index.html) and [Prof. Pixu Shi](https://pixushi.github.io/). I received my Ph.D. from the Department of Biostatistics & Computational Biology at University of Rochester under the supervision of [Prof. Xing Qiu](https://www.urmc.rochester.edu/biostat/people/faculty/qiu.aspx). My research interests include high dimensional data anlaysis, spatial statistics, functional data analysis, and multi-omics integration. Fun fact: my Erdős number is 3. 
+Previously, I was a postdoc research fellow in the Departments of Biostatistics & Bioinformatics at Duke University working with [Prof. Anru Zhang](https://anruzhang.github.io/index.html) and [Prof. Pixu Shi](https://pixushi.github.io/). I received my Ph.D. from the Department of Biostatistics & Computational Biology at University of Rochester under the supervision of [Prof. Xing Qiu](https://www.urmc.rochester.edu/biostat/people/faculty/qiu.aspx). My research interests include high dimensional data anlaysis, spatial statistics, functional data analysis, and multi-omics integration. Fun fact: my Erdős number is 3. 
 
 
   

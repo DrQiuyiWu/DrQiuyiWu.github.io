@@ -326,7 +326,6 @@ sections:
               Involved in the development of cutting-edge statistical methods and machine learning algorithms inspired by massive healthcare datasets.
               * Develop innovative statistical methods and machine learning algorithms for healthcare data analysis.
               * Conduct research in areas of generative models for biomedical data (e.g., echocardiograms, genetics, EHRs); dynamic risk prediction models; Data harmonization techniques; EHR phenotyping.
-              * Collaborate with Dr. Anru Zhang, Eugene Anson Stead, Jr. M.D. Associate Professor.
               * Contribute to the writing and publication of scientific papers.
         - title: Statistical Consultant
           company: University of Rochester
@@ -448,23 +447,23 @@ sections:
           icon_pack: fas
           name: Zoom Me
           link: 'https://zoom.us/j/8703832597?pwd=isLJN1C0m3khIICik4kWKsLsdUTexe.1'
-      email: qiuyi[DOT]wu[AT]duke[DOT]edu
+      email: qiuyi[DOT]wu[AT]temple[DOT]edu
       #phone: 585 520 4347
       #appointment_url: 'https://calendly.com'
       address:
-        street: 2424 Erwin Rd
-        city: Durham
-        region: NC
-        postcode: '27705'
+        street: Paley Hall
+        city: Philadelphia
+        region: PA
+        postcode: '19122'
         country: United States
         country_code: US
-      directions: Enter Hock Plaza Building and take the elevator to Floor 9, Office Room 9059
+      directions: Enter Paley Hall Building and take the elevator to Floor 3, Office Room 390A
       # office_hours:
       #   - 'Tuesday 10:00 to 16:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '36.0093'
-        longitude: '-78.9417'  
+        latitude: '39.9811'
+        longitude: '-75.1548'  
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
