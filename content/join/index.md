@@ -1,9 +1,9 @@
 ---
 title: "Open Positions"
-summary: "Opportunities for prospective graduate students"
 date: 2026-07-01
-type: landing
+draft: false
 ---
+
 
 # Open Positions
 
