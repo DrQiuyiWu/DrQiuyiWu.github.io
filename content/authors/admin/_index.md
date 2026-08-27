@@ -22,7 +22,7 @@ role: Assistant Professor of Biostatistics
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Temple University
-    url: 
+    url: https://cph.temple.edu/directory/qiuyi-wu-tuv85378
 
 
 
