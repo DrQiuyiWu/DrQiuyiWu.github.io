@@ -26,6 +26,7 @@ Current research areas include:
 - Biomedical data science
 
 ## Ideal Background
+
 I welcome applicants with strong quantitative backgrounds in
 
 - Statistics
