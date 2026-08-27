@@ -7,15 +7,13 @@ draft: false
 
 Thank you for your interest in joining my research group!
 
-🚀 **I am actively recruiting Ph.D. and master's students** interested in developing novel statistical methods for solving important problems in environmental epidemiology, biomedical science, and public health.
+🚀 **I am recruiting Ph.D. and master's students** interested in developing novel statistical methods for solving important problems in environmental epidemiology, biomedical science, and public health.
 
 Students in my group will develop statistical and machine learning methods for complex biomedical and public health data, with applications in environmental epidemiology, neuroscience, genomics, and precision medicine. I strive to foster a collaborative, supportive, and inclusive environment where students receive close mentorship, develop independence, and pursue impactful research. My goal is to help each student build the skills and confidence needed for a successful career in academia, industry, or government.
 
 Before reaching out, please read the information below carefully. This will help you determine whether my research group is a good fit for your interests and background.
 
 ### Ph.D. Students
-
-I am actively recruiting Ph.D. students interested in developing novel biostatistical methods for environmental epidemiology, biomedical science, and public health.
 
 Students in my research group pursue a Ph.D. in Epidemiology while conducting dissertation research focused on biostatistics. My group emphasizes the development of rigorous statistical methodology with applications to real-world public health and biomedical problems.
 

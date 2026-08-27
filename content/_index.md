@@ -315,13 +315,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Assistant Professor
+          company: Temple University
+          company_url: 'https://cph.temple.edu/directory/qiuyi-wu-tuv85378'
+          company_logo: org-temple
+          location: Philadelphia, PA
+          date_start: '2026-07-01'
+          date_end: ''
+          description: |2-
+              Tenure-track Assistant Professor in the Department of Epidemiology and Biostatistics, Barnett College of Public Health.
+              * Lead an independent research program developing statistical and AI/ML methods for complex biomedical, public health, and environmental data.
+              * Develop methodology in statistical learning, high-dimensional and spatial data analysis, clustering and latent structure inference, functional and image data analysis, and uncertainty quantification.
+              * Pursue interdisciplinary applications involving multi-omics, environmental and spatial health data, medical imaging, wearable and sensor data, and other emerging sources of health data.
+              * Collaborate with investigators across public health, medicine, statistics, and data science on methodological and applied research.
+              * Mentor graduate students and contribute to teaching and training in biostatistics, statistics, and data science.
         - title: Postdoc Researcher
           company: Duke University
-          company_url: 'https://biostat.duke.edu/profile/qiuyi-wu'
+          company_url: 'https://biostat.duke.edu/'
           company_logo: org-duke
           location: Durham, NC
           date_start: '2024-09-10'
-          date_end: ''
+          date_end: '2026-05-31'
           description: |2-
               Involved in the development of cutting-edge statistical methods and machine learning algorithms inspired by massive healthcare datasets.
               * Develop innovative statistical methods and machine learning algorithms for healthcare data analysis.
@@ -451,7 +465,7 @@ sections:
       #phone: 585 520 4347
       #appointment_url: 'https://calendly.com'
       address:
-        street: Paley Hall
+        street: Paley Hall 390A
         city: Philadelphia
         region: PA
         postcode: '19122'
