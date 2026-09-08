@@ -138,7 +138,7 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I am a Tenure-Track Assistant Professor of Biostatistics in the [Department of Epidemiology & Biostatistics](https://cph.temple.edu/academics/departments/epidemiology-biostatistics) at Barnett College of Public Health, Temple University. 
+I am a Tenure-Track Assistant Professor of Biostatistics in the [Department of Epidemiology & Biostatistics](https://cph.temple.edu/academics/departments/epidemiology-biostatistics) at College of Public Health, Temple University. 
 
 <!-- <p style="color:#c62828; font-weight:bold;">
 🚀 OPEN POSITIONS: I'm recruiting Ph.D. and master's students. Click <a href="/join/">here</a> to learn more about current opportunities.
