@@ -323,7 +323,7 @@ sections:
           date_start: '2026-07-01'
           date_end: ''
           description: |2-
-              Tenure-track Assistant Professor in the Department of Epidemiology and Biostatistics, Barnett College of Public Health.
+              Tenure-track Assistant Professor in the Department of Epidemiology and Biostatistics.
               * Lead an independent research program developing statistical and AI/ML methods for complex biomedical, public health, and environmental data.
               * Develop methodology in statistical learning, high-dimensional and spatial data analysis, clustering and latent structure inference, functional and image data analysis, and uncertainty quantification.
               * Pursue interdisciplinary applications involving multi-omics, environmental and spatial health data, medical imaging, wearable and sensor data, and other emerging sources of health data.
@@ -335,7 +335,7 @@ sections:
           company_logo: org-duke
           location: Durham, NC
           date_start: '2024-09-10'
-          date_end: '2026-05-31'
+          date_end: '2026-06-15'
           description: |2-
               Involved in the development of cutting-edge statistical methods and machine learning algorithms inspired by massive healthcare datasets.
               * Develop innovative statistical methods and machine learning algorithms for healthcare data analysis.
