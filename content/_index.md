@@ -103,8 +103,7 @@ sections:
       title: News
       text: |-
         - **2026-08**: Excited to serve as Program Chair of the ASA Section on Text Analysis for 2026–2027, leading the section’s scientific program for JSM 2027 in Chicago!
-        I encourage researchers and students interested in text analysis, NLP, LLM, and related statistical methodologies to participate in our section's activities at JSM 2027.
-
+        I encourage researchers and students interested in text analysis, NLP, LLM, and related statistical methodologies to participate in our section's activities at JSM 2027.\
         **Key Deadlines for JSM 2027**:
           - Invited Session Proposals: 2026/09/23
           - Student Paper Competition: 2026/11/15
