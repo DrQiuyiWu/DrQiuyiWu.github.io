@@ -102,6 +102,13 @@ sections:
     content:
       title: News
       text: |-
+        - **2026-08**: Excited to serve as Program Chair of the ASA Section on Text Analysis for 2026–2027, leading the section’s scientific program for JSM 2027 in Chicago!
+        I encourage researchers and students interested in text analysis, NLP, LLM, and related statistical methodologies to participate in our section's activities at JSM 2027.
+        *Key Deadlines for JSM 2027*:
+          - Invited Session Proposals — [2026/09/23]
+          - Student Paper Competition — [2026/11/15]
+          - Topic-Contributed Session Proposals — [2026/12/10]
+          - Contributed Abstract Submissions — [2027/02/01]
         - **2026-06**: I'm joining the Department of Epidemiology and Biostatistics at Temple University as a Tenure-Track Assistant Professor of Biostatistics in summer 2026! 🎉
         - **2025-08**: Presented my postdoc work "Soft Post-Clustering Inference with EHR Applications" at JSM 2025! [[link]](https://ww3.aievolution.com/JSMAnnual2025/Events/viewEv?ev=1995)[[link]](https://drive.google.com/file/d/160dXCaD0gsXpM1bwBeI95C3dXobDz3OL/view?usp=sharing)
         - **2025-07**: Received CWS Do-Bui Travel Award for JSM conference hosted in Nashville! [[link]](https://drive.google.com/file/d/1jBNa3UwNFexG5IF9XkG1hj_ps8-rRuRo/view?usp=sharing)
